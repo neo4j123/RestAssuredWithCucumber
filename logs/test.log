@@ -202,3 +202,295 @@ Response Body:{
     "mobileNumber": "8377878847"
 }
 Test passed: This test retrieves the profile of the user after logging in 
+Test Suite Started: This test retrieves the profile of the user after logging in 
+Test failed: This test retrieves the profile of the user after logging in 
+Test failed: This test retrieves the profile of the user after logging in 
+Test Suite Started: This test retrieves the profile of the user after logging in 
+Test failed: This test retrieves the profile of the user after logging in 
+Test failed: This test retrieves the profile of the user after logging in 
+Test Suite Started: This test retrieves the profile of the user after logging in 
+Test failed: This test retrieves the profile of the user after logging in 
+Test failed: This test retrieves the profile of the user after logging in 
+Test Suite Started: This test retrieves the profile of the user after logging in 
+Test failed: This test retrieves the profile of the user after logging in 
+Test failed: This test retrieves the profile of the user after logging in 
+Test Suite Started: API Tests Suite
+Test Started: This test retrieves the profile of the user after logging in
+BASE URI:http://64.227.160.186:8080
+Request Header:Accept=*/*
+Content-Type=application/json
+Request PayLoad:{"username":"srivastava.akash42@gmail.com","password":"RestInPeace@123"}
+STATUS CODE:200
+Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Thu, 19 Jun 2025 07:22:48 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzcml2YXN0YXZhLmFrYXNoNDJAZ21haWwuY29tIiwiaWF0IjoxNzUwMzE3NzY4LCJleHAiOjE3NTAzMjEzNjh9.Oh2hUPAoepK-F6OkNpqu26TqiMRoH1bVv1zwn32KYSU",
+    "type": "Bearer",
+    "id": 1510,
+    "username": "srivastava.akash42@gmail.com",
+    "email": "srivastava.akash42@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+BASE URI:http://64.227.160.186:8080
+Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzcml2YXN0YXZhLmFrYXNoNDJAZ21haWwuY29tIiwiaWF0IjoxNzUwMzE3NzY4LCJleHAiOjE3NTAzMjEzNjh9.Oh2hUPAoepK-F6OkNpqu26TqiMRoH1bVv1zwn32KYSU
+Accept=*/*
+Request PayLoad:null
+STATUS CODE:200
+Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Thu, 19 Jun 2025 07:22:48 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+Response Body:{
+    "id": 1510,
+    "username": "srivastava.akash42@gmail.com",
+    "email": "srivastava.akash42@gmail.com",
+    "firstName": "Akash",
+    "lastName": "Srivastava",
+    "mobileNumber": "8377878847"
+}
+Test passed: This test retrieves the profile of the user after logging in
+Test Suite Finished: API Tests Suite
+Test Suite Started: API Tests Suite
+Test Started: This test retrieves the profile of the user after logging in
+BASE URI:http://64.227.160.186:8080
+Request Header:Accept=*/*
+Content-Type=application/json
+Request PayLoad:{"username":"srivastava.akash42@gmail.com","password":"RestInPeace@123"}
+STATUS CODE:200
+Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Thu, 19 Jun 2025 13:05:38 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzcml2YXN0YXZhLmFrYXNoNDJAZ21haWwuY29tIiwiaWF0IjoxNzUwMzM4MzM4LCJleHAiOjE3NTAzNDE5Mzh9.BcenzMobIAxDD8tVg60_WYi34ZAMsFd3fM5pNBH1gdQ",
+    "type": "Bearer",
+    "id": 1510,
+    "username": "srivastava.akash42@gmail.com",
+    "email": "srivastava.akash42@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+BASE URI:http://64.227.160.186:8080
+Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzcml2YXN0YXZhLmFrYXNoNDJAZ21haWwuY29tIiwiaWF0IjoxNzUwMzM4MzM4LCJleHAiOjE3NTAzNDE5Mzh9.BcenzMobIAxDD8tVg60_WYi34ZAMsFd3fM5pNBH1gdQ
+Accept=*/*
+Request PayLoad:null
+STATUS CODE:200
+Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Thu, 19 Jun 2025 13:05:38 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+Response Body:{
+    "id": 1510,
+    "username": "srivastava.akash42@gmail.com",
+    "email": "srivastava.akash42@gmail.com",
+    "firstName": "Akash",
+    "lastName": "Srivastava",
+    "mobileNumber": "8377878847"
+}
+Test passed: This test retrieves the profile of the user after logging in
+Test Suite Finished: API Tests Suite
+Test Suite Started: API Tests Suite
+Test Started: This test retrieves the profile of the user after logging in
+BASE URI:http://64.227.160.186:8080
+Request Header:Accept=*/*
+Content-Type=application/json
+Request PayLoad:{"username":"srivastava.akash42@gmail.com","password":"RestInPeace@123"}
+STATUS CODE:200
+Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Thu, 19 Jun 2025 13:10:43 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzcml2YXN0YXZhLmFrYXNoNDJAZ21haWwuY29tIiwiaWF0IjoxNzUwMzM4NjQzLCJleHAiOjE3NTAzNDIyNDN9.G8-lHgumW2L7L3ZV6uXwd6JVO-QGXPVFkY7oYkP7ogA",
+    "type": "Bearer",
+    "id": 1510,
+    "username": "srivastava.akash42@gmail.com",
+    "email": "srivastava.akash42@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+BASE URI:http://64.227.160.186:8080
+Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzcml2YXN0YXZhLmFrYXNoNDJAZ21haWwuY29tIiwiaWF0IjoxNzUwMzM4NjQzLCJleHAiOjE3NTAzNDIyNDN9.G8-lHgumW2L7L3ZV6uXwd6JVO-QGXPVFkY7oYkP7ogA
+Accept=*/*
+Request PayLoad:null
+STATUS CODE:200
+Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Thu, 19 Jun 2025 13:10:43 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+Response Body:{
+    "id": 1510,
+    "username": "srivastava.akash42@gmail.com",
+    "email": "srivastava.akash42@gmail.com",
+    "firstName": "Akash",
+    "lastName": "Srivastava",
+    "mobileNumber": "8377878847"
+}
+Test passed: This test retrieves the profile of the user after logging in
+Test Suite Finished: API Tests Suite
+Test Suite Started: API Tests Suite
+Test Started: This test retrieves the profile of the user after logging in
+BASE URI:http://64.227.160.186:8080
+Request Header:Accept=*/*
+Content-Type=application/json
+Request PayLoad:{"username":"srivastava.akash42@gmail.com","password":"RestInPeace@123"}
+STATUS CODE:200
+Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Thu, 19 Jun 2025 13:13:17 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzcml2YXN0YXZhLmFrYXNoNDJAZ21haWwuY29tIiwiaWF0IjoxNzUwMzM4Nzk3LCJleHAiOjE3NTAzNDIzOTd9.4QIcjVfG1ROmfe5y0WUXGyyezCFMf-c_WiPICk3dW_E",
+    "type": "Bearer",
+    "id": 1510,
+    "username": "srivastava.akash42@gmail.com",
+    "email": "srivastava.akash42@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+BASE URI:http://64.227.160.186:8080
+Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzcml2YXN0YXZhLmFrYXNoNDJAZ21haWwuY29tIiwiaWF0IjoxNzUwMzM4Nzk3LCJleHAiOjE3NTAzNDIzOTd9.4QIcjVfG1ROmfe5y0WUXGyyezCFMf-c_WiPICk3dW_E
+Accept=*/*
+Request PayLoad:null
+STATUS CODE:200
+Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Thu, 19 Jun 2025 13:13:17 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+Response Body:{
+    "id": 1510,
+    "username": "srivastava.akash42@gmail.com",
+    "email": "srivastava.akash42@gmail.com",
+    "firstName": "Akash",
+    "lastName": "Srivastava",
+    "mobileNumber": "8377878847"
+}
+Test passed: This test retrieves the profile of the user after logging in
+Test Suite Finished: API Tests Suite

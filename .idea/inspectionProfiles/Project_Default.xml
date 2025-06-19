@@ -6,16 +6,19 @@
       <option name="ignoredModules">
         <list>
           <option value="RestAssuredWithCucumber" />
+          <option value="RestAssuredWithCucumber" />
         </list>
       </option>
       <option name="ignoredPackages">
         <list>
           <option value="commons-codec:commons-codec:1.11" />
+          <option value="com.google.code.gson:gson:2.8.5" />
         </list>
       </option>
       <option name="ignoredReasons">
         <list>
           <option value="No Issues" />
+          <option value="Not exploitable" />
         </list>
       </option>
     </inspection_tool>
